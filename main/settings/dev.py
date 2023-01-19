@@ -1,5 +1,14 @@
 from .base import *
 
+ALLOWED_HOSTS = ["*"]
+
+# Password validation
+# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
+
+AUTH_PASSWORD_VALIDATORS = [] # dev ortaminda sifre korumalarina tabi tutma o nedenle bos 
+#ama prod ortaminda sifre korumalari etkin prod.py ye yapistirdim.
+
+
 
  
 # SECURITY WARNING: don't run with debug turned on in production!
